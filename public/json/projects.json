@@ -1,0 +1,40 @@
+{
+    "projects": [
+      {
+        "image": "/project/Porto Meta.png",
+        "title": "Interactive Quiz",
+        "date": "July 2023",
+        "category": "Web Development",
+        "hex": "#35ddaf"
+      },
+      {
+        "image": "/project/Porto Pasarkol.gif",
+        "title": "Online Ticketing",
+        "date": "July 2023",
+        "category": "Ar Filter",
+        "hex": "#35ddaf"
+      },
+      {
+        "image": "/project/meta.png",
+        "title": "Interactive Quiz for Meta",
+        "date": "July 2023",
+        "category": "Web Development",
+        "hex": "#35ddaf"
+      },
+      {
+        "image": "/project/meta.png",
+        "title": "Interactive Quiz for Meta",
+        "date": "July 2023",
+        "category": "Analytics",
+        "hex": "#35ddaf"
+      },
+      {
+        "image": "/project/meta.png",
+        "title": "Interactive Quiz for Meta",
+        "date": "July 2023",
+        "category": "Hardware & Software",
+        "hex": "#35ddaf"
+      }
+    ]
+  }
+  

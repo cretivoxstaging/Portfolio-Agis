@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-main {
+  @apply bg-[#0c3bb8] w-full text-white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.serif {
+  font-family: "Noto Serif", serif !important;
+}
+
+.archivo {
+  font-family: "Archivo", sans-serif;
+}
