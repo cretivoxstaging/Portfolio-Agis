@@ -24,13 +24,13 @@
         </section>
         <section class="bg-main">
             <div
-                class="container-xl bg-[url('background.png')] bg-contain bg-no-repeat bg-center mx-auto flex flex-col justify-center h-dvh items-center md:py-20 md:px-[10em]">
+                class="container-xl bg-[url('background.png')] md:bg-contain bg-cover bg-no-repeat bg-center mx-auto flex flex-col justify-center h-dvh items-center md:py-20 md:px-[10em]">
                 <div class="relative">
-                    <img :src="image" class="w-[30vw]" alt="">
+                    <img :src="image" class="md:w-[30vw]" alt="">
                     <div class="absolute top-10 w-full h-full flex flex-col items-center justify-end">
-                        <div class="flex">
+                        <div class="flex md:gap-2">
                             <button v-for="(btn, index) in buttons" :key="index"
-                                :class="['px-4 py-2', activeButton === btn.type ? 'bg-blue-400' : 'bg-gray-200']"
+                                :class="['px-3 py-1 text-xs relative z-10', activeButton === btn.type ? 'bg-white text-[#0c3bb8] border rounded-full' : 'border rounded-full ']"
                                 @click="changeImage(btn.type)">
                                 {{ btn.label }}
                             </button>
